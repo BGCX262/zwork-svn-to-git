@@ -1,0 +1,33 @@
+.zwork-window{position: absolute;width: 400px;height: 300px;overflow: hidden;}
+.zwork-window .window_top{height: 28px;width: 100%;overflow: hidden;}
+.zwork-window .window_top .window_border{position: absolute;width: 100%;height: 28px;z-index: 1;overflow: hidden;}
+.zwork-window .window_top .window_border .window_left{ width: 5px; height: 28px; background: url(image/window/border.png) no-repeat 0 0; float: left; }
+.zwork-window .window_top .window_border .window_center{ width: 390px; height: 28px; background: url(image/window/border.png) repeat-x 0 -100px; float: left; }
+.zwork-window .window_top .window_border .window_right{ width: 5px; height: 28px; background: url(image/window/border.png) no-repeat 0 -50px; float: left; }
+.zwork-window .window_top .window_titlebar{position: absolute;width: 100%;height: 30px;z-index: 2;overflow: hidden;}
+.zwork-window .window_top .window_titlebar .window_ico{width: 25px;height: 20px;float: left;margin-top: 5px;}
+.zwork-window .window_top .window_titlebar .window_title{height: 20px;line-height: 20px;width: 310px;float: left;text-align: center;overflow: hidden;font-weight: bold;color: #666666;margin-top: 5px;}
+.zwork-window .window_top .window_titlebar .window_buttons{height: 19px;width: 65px;float: left;margin-top: 5px;overflow: hidden;}
+.zwork-window .window_top .window_titlebar .window_buttons div{width: 19px;height: 19px;margin-right: 2px;float: left;border: 0;margin-bottom: 0px;cursor: pointer;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_close{background: url("image/window/button.png") no-repeat 0 0;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_close_hover{background: url("image/window/button.png") no-repeat 0 -50px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_maxre{background: url("image/window/button.png") no-repeat 0 -100px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_maxre_hover{background: url("image/window/button.png") no-repeat 0 -150px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_min{background: url("image/window/button.png") no-repeat 0 -300px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_min_hover{background: url("image/window/button.png") 0 -350px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_disabled{background: url("image/window/button.png") 0 -600px;}
+.zwork-window .window_top .window_titlebar .window_buttons .window_disabled_hover{background: url("image/window/button.png") 0 -600px;}
+
+.zwork-window .window_center{height: 250px;background: white;position: relative;}
+.zwork-window .window_center .window_loading{position: absolute;z-index: 100000;background: url("image/window/mask.png");display: none;}
+.zwork-window .window_center .window_leftborder{height: 250px;width: 1px;float: left;background:#B4D1D3; }
+.zwork-window .window_center .window_content{height: 250px;width: 398px;float: left;overflow: auto;background: #EEF4F4;}
+.zwork-window .window_center .window_scroll{height: 250px;width: 0px;float: left;}
+.zwork-window .window_center .window_rightborder{height: 250px;width: 1px;float: left;background:#B4D1D3;}
+
+.zwork-window .window_bottom{height: 5px;width: 100%;}
+.zwork-window .window_bottom .window_border{position: absolute;width: 100%;height: 5px;z-index: 1;}
+.zwork-window .window_bottom .window_border .window_left{ width: 5px; height: 5px; background: url(image/window/border.png) no-repeat 0 -150px; float: left; }
+.zwork-window .window_bottom .window_border .window_center{ width: 390px; height: 5px; background: url(image/window/border.png) repeat-x 0 -250px; float: left; }
+.zwork-window .window_bottom .window_border .window_right{ width: 5px; height: 5px; background: url(image/window/border.png) no-repeat 0 -200px; float: left; }
+.zwork-window .window_bottom .window_statebar{position: absolute;width: 100%;height: 20px;z-index: 2;}
